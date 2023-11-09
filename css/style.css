@@ -1,4 +1,8 @@
-.bg-greenPrimary{
+.bg-greenPrimary {
     background-color: rgb(28, 45, 25);
 }
 
+.triangle{
+    position: absolute;
+    z-index: -1;
+}

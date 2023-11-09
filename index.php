@@ -47,12 +47,9 @@
 
     </header>
     <main>
-        <div class="triangle">
-            
-        </div>
         <section class="container">
             <div class="row justify-content-center align-items-start g-2">
-                <div class="col-3 col-md-3">
+                <div class="col-6 col-md-5 col-xl-3 mb-2">
                     <img src="resources/angronWeb.png" class="img-fluid rounded-2" alt="Álvaro">
                 </div>
                 <div class="container col-12 col-md-12 col-xl-9">
@@ -60,7 +57,7 @@
                         <div class="col-11 col-md-7 bg-greenPrimary rounded-5 p-3">
                             <h1 class="display-6 text-light text-center">Álvaro Martínez Lineros</h1>
                         </div>
-                        <div class="col-1 col-md-1 rounded-5 p-3 bg-greenPrimary">
+                        <div class="col-1 col-md-1 col-xl-1 rounded-5 p-3 bg-greenPrimary">
                             <a href="">Github</a>
                         </div>
                     </div>
