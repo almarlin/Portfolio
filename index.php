@@ -47,17 +47,33 @@
 
     </header>
     <main>
+        <div class="triangle">
+            
+        </div>
         <section class="container">
-            <div class="row justify-content-center align-items-center g-2">
+            <div class="row justify-content-center align-items-start g-2">
                 <div class="col-3 col-md-3">
                     <img src="resources/angronWeb.png" class="img-fluid rounded-2" alt="Álvaro">
                 </div>
-                <div class="col-12 col-md-7 bg-greenPrimary">
-                    <h1 class="display-6 text-light p-3 rounded text-top text-center">Álvaro Martínez Lineros</h1>
-                </div>
-                <div class="col-1 col-md-1">
+                <div class="container col-12 col-md-12 col-xl-9">
+                    <div class="row justify-content-center align-items-center gap-5">
+                        <div class="col-11 col-md-7 bg-greenPrimary rounded-5 p-3">
+                            <h1 class="display-6 text-light text-center">Álvaro Martínez Lineros</h1>
+                        </div>
+                        <div class="col-1 col-md-1 rounded-5 p-3 bg-greenPrimary">
+                            <a href="">Github</a>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center align-items-end p-5 g-2">
+                        <div class="col-12">
+                            <p class="fw-light fs-4 text-center p-5">
+                                ¡Hola! Me llamo Álvaro Martínez Lineros y soy desarrollador web. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, cumque? Quisquam inventore sapiente aliquid deserunt aperiam, error vel facilis quae, minima molestias ut totam optio excepturi architecto reiciendis quos distinctio!
+                            </p>
+                        </div>
 
+                    </div>
                 </div>
+
             </div>
         </section>
     </main>
