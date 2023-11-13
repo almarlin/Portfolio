@@ -76,7 +76,7 @@
             </div>
         </section>
         <section class="container mt-5">
-            <div class="d-flex">
+            <div class="d-flex flex-wrap">
                 <div class="xl-circle bg-greenPrimary d-flex m-3"></div>
                 <div class=" d-flex align-items-end">
                     <div class="sm-circle bg-tan d-flex "></div>
@@ -85,17 +85,33 @@
                 <div class=" d-flex align-items-center">
                     <div class="sm-circle bg-greenPrimary d-flex "></div>
                 </div>
+
+                <div class="d-flex justify-items-end">
+                    <div class=" d-flex align-items-end">
+                        <div class="sm-circle bg-tan d-flex "></div>
+                    </div>
+                    <div class="sm-circle bg-red d-flex"></div>
+                    <div class=" d-flex align-items-center">
+                        <div class="sm-circle bg-greenPrimary d-flex "></div>
+                    </div>
+
+                    <div class="xl-circle d-flex m-3"></div>
+
+
+                </div>
             </div>
 
-            <div class="d-flex">
-            <div class=" d-flex align-items-center">
+            <div class="d-flex flex-wrap">
+                <div class=" d-flex align-items-center">
                     <div class="sm-circle bg-red d-flex "></div>
                 </div>
                 <div class="xl-circle d-flex m-3"></div>
-                <div class=" d-flex align-items-start">
+                
+                <div class=" d-flex align-items-end justify-items-end">
                     <div class="sm-circle bg-greenPrimary d-flex "></div>
                 </div>
-                
+                <div class="xl-circle d-flex m-3"></div>
+                <div class="xl-circle bg-greenPrimary d-flex m-3"></div>
             </div>
 
         </section>
