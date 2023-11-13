@@ -9,7 +9,7 @@
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
+    <!-- Mi estilo -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
@@ -28,23 +28,22 @@
                 <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
                     <ul class="navbar-nav ">
                         <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="#">Sobre mi</a>
+                            <a class="nav-link active text-light fw-light fs-5" aria-current="page" href="#">Sobre mi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-light" href="#">Proyectos</a>
+                            <a class="nav-link active text-light fw-light fs-5" href="#">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-light" href="#">Contacto</a>
+                            <a class="nav-link active text-light fw-light fs-5" href="#">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
             </div>
         </nav>
-
 
     </header>
     <main>
@@ -60,7 +59,7 @@
                         <div class="col-11 col-md-6 bg-greenPrimary rounded-5 p-3" id="nombre">
                             <h1 class="display-6 text-light nombre text-center">Álvaro Martínez Lineros</h1>
                         </div>
-                        <div class="col-1 col-md-1 col-xl-1 text-center bg-greenPrimary " id="github">
+                        <div class="col-1 col-md-1 col-xl-1  bg-greenPrimary d-flex align-items-center justify-content-center" id="github">
                             <a href="">Github</a>
                         </div>
                         <div class="col-12 col-md-12 col-xl-12 mt-5 p-5">
@@ -75,23 +74,23 @@
                 </div>
             </div>
         </section>
-        <section class="container mt-5">
+        <section class="container mt-5" id="sobreMi">
             <div class="d-flex flex-wrap justify-content-center">
                 <div class="xl-circle bg-greenPrimary d-flex m-3"></div>
-                <div class=" d-flex align-items-xl-end align-items-md-end">
-                    <div class="sm-circle bg-tan d-flex "></div>
+                <div class=" d-flex align-items-xl-end align-items-md-end align-items-sm-end">
+                    <div class="sm-circle bg-tan d-flex"></div>
                 </div>
                 <div class="sm-circle bg-red d-flex"></div>
-                <div class=" d-flex align-items-xl-center align-items-md-center">
+                <div class=" d-flex align-items-xl-center align-items-md-center align-items-sm-center">
                     <div class="sm-circle bg-greenPrimary d-flex "></div>
                 </div>
 
                 <div class="d-flex justify-items-end">
-                    <div class=" d-flex align-items-xl-end align-items-md-end">
+                    <div class=" d-flex align-items-xl-end align-items-md-end align-items-sm-end">
                         <div class="sm-circle bg-tan d-flex "></div>
                     </div>
                     <div class="sm-circle bg-red d-flex"></div>
-                    <div class=" d-flex align-items-xl-center align-items-md-center">
+                    <div class=" d-flex align-items-xl-center align-items-md-center align-items-sm-center">
                         <div class="sm-circle bg-greenPrimary d-flex "></div>
                     </div>
 
@@ -101,16 +100,47 @@
             </div>
 
             <div class="d-flex flex-wrap justify-content-center">
-                <div class=" d-flex align-items-xl-center align-items-md-center">
+                <div class=" d-flex align-items-xl-center align-items-md-center align-items-sm-center">
                     <div class="sm-circle bg-red d-flex "></div>
                 </div>
-                
-                <div class=" d-flex align-items-xl-end align-items-md-end justify-items-xl-end justify-items-md-end">
+
+                <div class=" d-flex align-items-xl-end align-items-md-end align-items-sm-end justify-items-xl-end justify-items-md-end justify-items-sm-end">
                     <div class="sm-circle bg-greenPrimary d-flex "></div>
                 </div>
                 <div class="xl-circle bg-greenPrimary d-flex m-3"></div>
             </div>
 
+        </section>
+        <section class="container mt-5">
+            <div class="xl-circle bg-greenPrimary d-flex align-items-center justify-content-center">
+                <p class="text-center text-light fs-1 fw-light">Proyectos</p>
+            </div>
+            <div class="row">
+              <div class="col-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title">Title</h3>
+                    <p class="card-text">Text</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title">Title</h3>
+                    <p class="card-text">Text</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title">Title</h3>
+                    <p class="card-text">Text</p>
+                  </div>
+                </div>
+              </div>
+            </div>
         </section>
     </main>
     <footer>
