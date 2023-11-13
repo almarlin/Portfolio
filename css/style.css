@@ -13,16 +13,15 @@ body {
     z-index: -1;
 }
 
-#nombre{
-    transition-property: height;
-    transition-duration: 1s;
+#nombre {
+    animation: expand 1s ease-in-out;
+    animation-fill-mode: forwards;
+    width:30%;
 }
-#nombre:hover{
-    height: 9rem;
-    transition-duration: 1s;
-    
+#github{
+    animation: bounce 0.5s ease-in-out;
+    animation-delay: 1.1s;
 }
-
 .xl-circle {
     border-radius: 50%;
     width: 16rem;
@@ -33,4 +32,26 @@ body {
     border-radius: 50%;
     width: 6rem;
     height: 6rem;
+}
+
+@keyframes expand {
+    0% {
+        width: 30%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
