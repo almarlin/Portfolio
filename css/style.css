@@ -65,8 +65,8 @@ body {
 
 .sm-circle:hover {
     animation: none;
-    height: 9vw;
-    width: 9vw;
+    height: 9rem;
+    width: 9rem;
 
 }
 
