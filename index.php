@@ -81,7 +81,7 @@
                 <div class=" d-flex align-items-end">
                     <div class="sm-circle bg-tan d-flex "></div>
                 </div>
-                <div class="sm-circle bg-greenPrimary d-flex"></div>
+                <div class="sm-circle bg-red d-flex"></div>
                 <div class=" d-flex align-items-center">
                     <div class="sm-circle bg-greenPrimary d-flex "></div>
                 </div>
@@ -89,7 +89,7 @@
 
             <div class="d-flex">
             <div class=" d-flex align-items-center">
-                    <div class="sm-circle bg-tan d-flex "></div>
+                    <div class="sm-circle bg-red d-flex "></div>
                 </div>
                 <div class="xl-circle d-flex m-3"></div>
                 <div class=" d-flex align-items-start">

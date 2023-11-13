@@ -16,6 +16,10 @@ body {
     background-color: tan;
 }
 
+.bg-red{
+    background-color: rgb(206, 0, 0);
+}
+
 .triangle {
     position: absolute;
     z-index: -1;
@@ -42,20 +46,25 @@ body {
     height: 16rem;
 }
 
+.xl-circle:hover {
+    animation: toggle 0.5s linear infinite;
+}
+
 .sm-circle {
     border-radius: 50%;
     width: 6rem;
     height: 6rem;
-    animation: wiggle 4s linear infinite;
+    animation: wiggle 4s ease-in-out infinite;
     animation-delay: 2s;
     animation-iteration-count: infinite;
-    transition: width 1s, heigth 1s;
+    transition: height 1s, width 1s;
 }
 
 .sm-circle:hover {
     animation: none;
-    width: 9rem;
     height: 9rem;
+    width: 9rem;
+
 }
 
 @keyframes expand {
@@ -84,12 +93,12 @@ body {
 
 @keyframes wiggle {
     0% {
-        transform: rotateX(15deg);
+        transform: rotateX(25deg);
 
     }
 
     20% {
-        transform: rotateX(-15deg);
+        transform: rotateX(-25deg);
     }
 
     21%,
@@ -97,4 +106,13 @@ body {
         transform: rotateX(0deg);
     }
 
+}
+
+@keyframes toggle{
+    0%{
+        transform: rotateY(15deg);
+    }
+    100%{
+        transform: rotateY(-15deg);
+    }
 }
