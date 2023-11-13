@@ -60,7 +60,7 @@
                         <div class="col-11 col-md-6 bg-greenPrimary rounded-5 p-3" id="nombre">
                             <h1 class="display-6 text-light nombre text-center">Álvaro Martínez Lineros</h1>
                         </div>
-                        <div class="col-1 col-md-1 col-xl-1 sm-circle text-center bg-greenPrimary " id="github">
+                        <div class="col-1 col-md-1 col-xl-1 text-center bg-greenPrimary " id="github">
                             <a href="">Github</a>
                         </div>
                         <div class="col-12 col-md-12 col-xl-12 mt-5 p-5">
