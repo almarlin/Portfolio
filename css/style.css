@@ -36,6 +36,8 @@ body {
 }
 
 #github {
+    height: 6rem;
+    width: 6rem;
     animation: bounce 0.5s ease-in-out;
     animation-delay: 2s;
 }
