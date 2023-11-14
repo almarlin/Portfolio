@@ -18,7 +18,7 @@
     </script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
     </script>
-    
+
     <script defer src="js/wow.js"></script>
     <script defer src="js/script.js"></script>
 </head>
@@ -79,49 +79,38 @@
             </div>
         </section>
         <section class="container mt-5" id="sobreMi">
-            <div class="d-flex flex-wrap justify-content-center">
-                <div class="wow animate__animated animate__shakeX xl-circle bg-greenPrimary d-flex m-3"></div>
-                <div class="d-flex align-items-xl-end align-items-md-end align-items-sm-end">
-                    <div class="wow animate__animated animate__pulse sm-circle bg-tan d-flex"></div>
-                </div>
-                <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex"></div>
-                <div class=" d-flex align-items-xl-center align-items-md-center align-items-sm-center">
-                    <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary d-flex "></div>
-                </div>
+            <div class="wow animate__animated animate__shakeX xl-circle bg-greenPrimary m-3"></div>
+            <div class="row align-items-center justify-content-center">
+                <div class="wow animate__animated animate__pulse sm-circle bg-tan"></div>
+                <div class="wow animate__animated animate__pulse sm-circle bg-red"></div>
+                <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary"></div>
 
-                <div class="d-flex justify-items-end">
-                    <div class=" d-flex align-items-xl-end align-items-md-end align-items-sm-end">
-                        <div class="wow animate__animated animate__pulse sm-circle bg-tan d-flex "></div>
-                    </div>
-                    <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex"></div>
-                    <div class=" d-flex align-items-xl-center align-items-md-center align-items-sm-center">
-                        <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary d-flex "></div>
-                    </div>
-
-
-
+                <div class=" justify-items-end">
+                    <div class="wow animate__animated animate__pulse sm-circle bg-tan  "></div>
+                    <div class="wow animate__animated animate__pulse sm-circle bg-red "></div>
+                    <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary  "></div>
                 </div>
             </div>
 
-            <div class="d-flex flex-wrap justify-content-center">
-                <div class=" d-flex align-items-xl-center align-items-md-center align-items-sm-center">
-                    <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex "></div>
+            <div class="row align-items-center justify-content-center">
+                <div class="align-items-xl-center align-items-md-center align-items-sm-center">
+                    <div class="wow animate__animated animate__pulse sm-circle bg-red  "></div>
                 </div>
 
-                <div class=" d-flex align-items-xl-end align-items-md-end align-items-sm-end justify-items-xl-end justify-items-md-end justify-items-sm-end">
-                    <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary d-flex "></div>
+                <div class="  align-items-xl-end align-items-md-end align-items-sm-end justify-items-xl-end justify-items-md-end justify-items-sm-end">
+                    <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary  "></div>
                 </div>
-                <div class="wow animate__animated animate__shakeX xl-circle bg-greenPrimary d-flex m-3"></div>
+                <div class="wow animate__animated animate__shakeX xl-circle bg-greenPrimary  m-3"></div>
             </div>
 
         </section>
-        <section class="container mt-5">
-            <div class="wow animate__animated animate__fadeInUp xl-circle bg-greenPrimary d-flex align-items-center justify-content-center mb-5">
+        <section class="container mt-5" id="proyectos">
+            <div class="wow animate__animated animate__fadeInUp xl-circle bg-greenPrimary  align-items-center justify-content-center mb-5">
                 <p class="text-center text-light fs-1 fw-light">Proyectos</p>
             </div>
             <div class="row justify-content-center align-items-center g-2">
                 <div class="col-12 col-md-6 col-xl-3">
-                    <div class="wow animate__animated animate__fadeInLeft card rounded-4 bg-greenPrimary text-light">
+                    <div class="wow animate__animated animate__fadeInUp card rounded-4 bg-greenPrimary text-light">
                         <img class="card-img-top p-1 rounded-4" src="resources/angronWeb.png" alt="Title">
                         <div class="card-body">
                             <h4 class="card-title fw-light">Proyecto 1</h4>
@@ -133,7 +122,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
-                    <div class="wow animate__animated animate__fadeInLeft card rounded-4 bg-greenPrimary text-light">
+                    <div class="wow animate__animated animate__fadeInUp card rounded-4 bg-greenPrimary text-light">
                         <img class="card-img-top p-1 rounded-4" src="resources/angronWeb.png" alt="Title">
                         <div class="card-body">
                             <h4 class="card-title fw-light">Proyecto 2</h4>
@@ -145,7 +134,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
-                    <div class="wow animate__animated animate__fadeInLeft card rounded-4 bg-greenPrimary text-light">
+                    <div class="wow animate__animated animate__fadeInUp card rounded-4 bg-greenPrimary text-light">
                         <img class="card-img-top p-1 rounded-4" src="resources/angronWeb.png" alt="Title">
                         <div class="card-body">
                             <h4 class="card-title fw-light">Proyecto 3</h4>
@@ -157,7 +146,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
-                    <div class="wow animate__animated animate__fadeInLeft card rounded-4 bg-greenPrimary text-light">
+                    <div class="wow animate__animated animate__fadeInUp card rounded-4 bg-greenPrimary text-light">
                         <img class="card-img-top p-1 rounded-4" src="resources/angronWeb.png" alt="Title">
                         <div class="card-body">
                             <h4 class="card-title fw-light">Proyecto 4</h4>
