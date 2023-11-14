@@ -47,11 +47,17 @@ body {
     border-radius: 50%;
     width: 16rem;
     height: 16rem;
+    animation-duration: 1s; 
+    animation-delay: 0.5s;
+}
+.card{
+    animation-duration: 1s; 
+    animation-delay: 0.5s; 
 }
 
-.xl-circle:hover {
+/* .xl-circle:hover {
     animation: toggle 0.5s linear infinite;
-}
+} */
 
 .sm-circle {
     border-radius: 50%;
