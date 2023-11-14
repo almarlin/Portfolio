@@ -112,35 +112,58 @@
 
         </section>
         <section class="container mt-5">
-            <div class="xl-circle bg-greenPrimary d-flex align-items-center justify-content-center">
+            <div class="xl-circle bg-greenPrimary d-flex align-items-center justify-content-center mb-5">
                 <p class="text-center text-light fs-1 fw-light">Proyectos</p>
             </div>
-            <div class="row">
-              <div class="col-4">
-                <div class="card">
-                  <div class="card-body">
-                    <h3 class="card-title">Title</h3>
-                    <p class="card-text">Text</p>
-                  </div>
+            <div class="row justify-content-center align-items-center g-2">
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card rounded-4 bg-greenPrimary text-light">
+                        <img class="card-img-top p-1 rounded-4" src="resources/angronWeb.png" alt="Title">
+                        <div class="card-body">
+                            <h4 class="card-title fw-light">Proyecto 1</h4>
+                            <p class="card-text fw-light fs-5">Text</p>
+                            <div class="d-flex justify-content-center"> 
+                            <a name="" id="" class="btn bg-tan githubRepo" href="#" role="button"></a>                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-4">
-                <div class="card">
-                  <div class="card-body">
-                    <h3 class="card-title">Title</h3>
-                    <p class="card-text">Text</p>
-                  </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card rounded-4 bg-greenPrimary text-light">
+                        <img class="card-img-top p-1 rounded-4" src="resources/angronWeb.png" alt="Title">
+                        <div class="card-body">
+                            <h4 class="card-title fw-light">Proyecto 2</h4>
+                            <p class="card-text fw-light fs-5">Text</p>
+                            <div class="d-flex justify-content-center"> 
+                            <a name="" id="" class="btn bg-tan githubRepo" href="#" role="button"></a>                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-4">
-                <div class="card">
-                  <div class="card-body">
-                    <h3 class="card-title">Title</h3>
-                    <p class="card-text">Text</p>
-                  </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card rounded-4 bg-greenPrimary text-light">
+                        <img class="card-img-top p-1 rounded-4" src="resources/angronWeb.png" alt="Title">
+                        <div class="card-body">
+                            <h4 class="card-title fw-light">Proyecto 3</h4>
+                            <p class="card-text fw-light fs-5">Text</p>
+                            <div class="d-flex justify-content-center"> 
+                            <a name="" id="" class="btn bg-tan githubRepo" href="#" role="button"></a>                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card rounded-4 bg-greenPrimary text-light">
+                        <img class="card-img-top p-1 rounded-4" src="resources/angronWeb.png" alt="Title">
+                        <div class="card-body">
+                            <h4 class="card-title fw-light">Proyecto 4</h4>
+                            <p class="card-text fw-light fs-5">Text</p>
+                            <div class="d-flex justify-content-center"> 
+                                <a name="" id="" class="btn bg-tan githubRepo" href="#" role="button"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
         </section>
     </main>
     <footer>
