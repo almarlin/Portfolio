@@ -78,46 +78,64 @@
                 </div>
             </div>
         </section>
-        <section class="container mt-5" id="sobreMi">
-            <div class="row align-items-center justify-content-center">
-                <div class="wow animate__animated animate__shakeX xl-circle bg-greenPrimary m-3"></div>
-            </div>
-            <div class="row align-items-center justify-content-center">
-                <div class="wow animate__animated animate__pulse sm-circle bg-tan d-flex align-items-center justify-content-center p-3">
-                    <img src="resources/html-5-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
-                </div>
-                <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex align-items-center justify-content-center p-3">
-                    <img src="resources/css-3-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
-                </div>
-            </div>
-            <div class="row align-items-center justify-content-center">
-                <div class="wow animate__animated animate__pulse sm-circle bg-tan d-flex align-items-center justify-content-center p-3">
-                    <img src="resources/mysql-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
-                </div>
-                <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex align-items-center justify-content-center p-3">
-                    <img src="resources/js-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
-                </div>
-                <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary d-flex align-items-center justify-content-center p-3">
-                    <img src="resources/cakephp-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
+        <section class="container mt-5 wow animate__animated animate__fadeInUp" id="sobreMi">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-4 col-lg-4 d-flex align-items-center justify-content-center">
+                    <div class="xl-circle circleUp bg-greenPrimary d-flex align-items-center justify-content-center">
+                        <p class="text-center text-light fs-1 fw-light d-flex align-items-center justify-content-center">Tecnologías</p>
+                    </div>
                 </div>
 
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="wow animate__animated animate__pulse sm-circle bg-tan d-flex align-items-center justify-content-center p-3">
+                            <img src="resources/html-5-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
+                        </div>
+                        <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex align-items-center justify-content-center p-3">
+                            <img src="resources/css-3-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
+                        </div>
 
+                    </div>
+
+
+
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="wow animate__animated animate__pulse sm-circle bg-tan d-flex align-items-center justify-content-center p-3">
+                            <img src="resources/mysql-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
+                        </div>
+                        <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex align-items-center justify-content-center p-3">
+                            <img src="resources/js-svgrepo-com.svg" class="img-fluid rounded-4" alt="">
+                        </div>
+                        <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary d-flex align-items-center justify-content-center p-3">
+                            <img src="resources/cakephp-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex align-items-center justify-content-center p-3">
+                            <img src="resources/git-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
+                        </div>
+                        <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary d-flex align-items-center justify-content-center p-3">
+                            <img src="resources/php-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center">
+                    <div class="xl-circle bg-greenPrimary  m-3">
+                    </div>
+                </div>
             </div>
 
-            <div class="row align-items-center justify-content-center">
-                <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex align-items-center justify-content-center p-3">
-                    <img src="resources/git-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
-                </div>
-                <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary d-flex align-items-center justify-content-center p-3">
-                    <img src="resources/php-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
-                </div>
 
 
-            </div>
-            <div class="row align-items-center justify-content-center">
-                <div class="xl-circle bg-greenPrimary  m-3">
-                </div>
-            </div>
 
         </section>
         <section class="container mt-5" id="proyectos">
