@@ -255,8 +255,17 @@
             </div>
         </section>
     </main>
-    <footer>
-        <!-- place footer here -->
+
+    <footer class="bg-greenPrimary text-light text-center p-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>&copy; 2023 Álvaro Martínez Lineros.</p>
+                </div>
+            </div>
+        </div>
+
+
     </footer>
 
 </body>
