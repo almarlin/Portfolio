@@ -35,13 +35,13 @@
                 <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
                     <ul class="navbar-nav ">
                         <li class="nav-item">
-                            <a class="nav-link active text-light fw-light fs-5" aria-current="page" href="#">Sobre mi</a>
+                            <a class="nav-link active text-light fw-light fs-5" aria-current="page" href="#sobreMi">Sobre mi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-light fw-light fs-5" href="#">Proyectos</a>
+                            <a class="nav-link active text-light fw-light fs-5" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-light fw-light fs-5" href="#">Contacto</a>
+                            <a class="nav-link active text-light fw-light fs-5" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
