@@ -83,21 +83,21 @@
                 <div class="wow animate__animated animate__shakeX xl-circle bg-greenPrimary m-3"></div>
             </div>
             <div class="row align-items-center justify-content-center">
-                <div class="wow animate__animated animate__pulse sm-circle bg-tan d-flex align-items-center justify-content-center">
+                <div class="wow animate__animated animate__pulse sm-circle bg-tan d-flex align-items-center justify-content-center p-3">
                     <img src="resources/html-5-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
                 </div>
-                <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex align-items-center justify-content-center">
+                <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex align-items-center justify-content-center p-3">
                     <img src="resources/css-3-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
                 </div>
             </div>
             <div class="row align-items-center justify-content-center">
-                <div class="wow animate__animated animate__pulse sm-circle bg-tan d-flex align-items-center justify-content-center ">
+                <div class="wow animate__animated animate__pulse sm-circle bg-tan d-flex align-items-center justify-content-center p-3">
                     <img src="resources/mysql-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
                 </div>
-                <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex align-items-center justify-content-center">
+                <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex align-items-center justify-content-center p-3">
                     <img src="resources/js-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
                 </div>
-                <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary d-flex align-items-center justify-content-center">
+                <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary d-flex align-items-center justify-content-center p-3">
                     <img src="resources/cakephp-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
                 </div>
 
@@ -105,10 +105,10 @@
             </div>
 
             <div class="row align-items-center justify-content-center">
-                <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex align-items-center justify-content-center">
+                <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex align-items-center justify-content-center p-3">
                     <img src="resources/git-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
                 </div>
-                <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary d-flex align-items-center justify-content-center">
+                <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary d-flex align-items-center justify-content-center p-3">
                     <img src="resources/php-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
                 </div>
 
@@ -131,8 +131,10 @@
                         <div class="card-body">
                             <h4 class="card-title fw-light">Proyecto 1</h4>
                             <p class="card-text fw-light fs-5">Text</p>
-                            <div class="d-flex justify-content-center">
-                                <a name="" id="" class="btn bg-tan githubRepo" href="#" role="button"></a>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="sm-circle bg-tan p-3">
+                                    <a href="https://github.com/almarlin"><img src="resources/github-svgrepo-com.svg" class="img-fluid rounded-top" alt=""></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -143,8 +145,10 @@
                         <div class="card-body">
                             <h4 class="card-title fw-light">Proyecto 2</h4>
                             <p class="card-text fw-light fs-5">Text</p>
-                            <div class="d-flex justify-content-center">
-                                <a name="" id="" class="btn bg-tan githubRepo" href="#" role="button"></a>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="sm-circle bg-tan p-3">
+                                    <a href="https://github.com/almarlin"><img src="resources/github-svgrepo-com.svg" class="img-fluid rounded-top" alt=""></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -155,8 +159,10 @@
                         <div class="card-body">
                             <h4 class="card-title fw-light">Proyecto 3</h4>
                             <p class="card-text fw-light fs-5">Text</p>
-                            <div class="d-flex justify-content-center">
-                                <a name="" id="" class="btn bg-tan githubRepo" href="#" role="button"></a>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="sm-circle bg-tan p-3">
+                                    <a href="https://github.com/almarlin"><img src="resources/github-svgrepo-com.svg" class="img-fluid rounded-top" alt=""></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -167,8 +173,10 @@
                         <div class="card-body">
                             <h4 class="card-title fw-light">Proyecto 4</h4>
                             <p class="card-text fw-light fs-5">Text</p>
-                            <div class="d-flex justify-content-center">
-                                <a name="" id="" class="btn bg-tan githubRepo" href="#" role="button"></a>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="sm-circle bg-tan p-3">
+                                    <a href="https://github.com/almarlin"><img src="resources/github-svgrepo-com.svg" class="img-fluid rounded-top" alt=""></a>
+                                </div>
                             </div>
                         </div>
                     </div>
