@@ -48,19 +48,23 @@ body {
     width: 16rem;
     height: 16rem;
     animation-duration: 1s; 
+    animation-delay: 2.5s;
+}
+
+.circleUp{
     animation-delay: 0.5s;
 }
 
 .card{
     animation-duration: 1s; 
-    animation-delay: 1s; 
+    animation-delay: 0.5s; 
 }
 
 .sm-circle {
     border-radius: 50%;
     width: 6rem;
     height: 6rem;
-    animation-delay: 2.5s;
+    animation-delay: 0.5s;
     animation-duration: 1s;
     transition: height 1s, width 1s;
 }
