@@ -144,7 +144,7 @@
             </div>
             <div class="row justify-content-center align-items-center g-2">
                 <div class="col-12 col-md-6 col-xl-3">
-                    <div class="wow animate__animated animate__fadeInUp card rounded-4 bg-greenPrimary text-light">
+                    <div class="wow animate__animated animate__fadeInUp card rounded-4 bg-greenPrimary text-light" id="project1">
                         <img class="card-img-top p-1 rounded-4" src="resources/angronWeb.png" alt="Title">
                         <div class="card-body">
                             <h4 class="card-title fw-light">Proyecto 1</h4>
@@ -158,7 +158,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
-                    <div class="wow animate__animated animate__fadeInUp card rounded-4 bg-greenPrimary text-light">
+                    <div class="wow animate__animated animate__fadeInUp card rounded-4 bg-greenPrimary text-light" id="project2">
                         <img class="card-img-top p-1 rounded-4" src="resources/angronWeb.png" alt="Title">
                         <div class="card-body">
                             <h4 class="card-title fw-light">Proyecto 2</h4>
@@ -172,7 +172,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
-                    <div class="wow animate__animated animate__fadeInUp card rounded-4 bg-greenPrimary text-light">
+                    <div class="wow animate__animated animate__fadeInUp card rounded-4 bg-greenPrimary text-light" id="project3">
                         <img class="card-img-top p-1 rounded-4" src="resources/angronWeb.png" alt="Title">
                         <div class="card-body">
                             <h4 class="card-title fw-light">Proyecto 3</h4>
@@ -186,7 +186,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
-                    <div class="wow animate__animated animate__fadeInUp card rounded-4 bg-greenPrimary text-light">
+                    <div class="wow animate__animated animate__fadeInUp card rounded-4 bg-greenPrimary text-light" id="project4">
                         <img class="card-img-top p-1 rounded-4" src="resources/angronWeb.png" alt="Title">
                         <div class="card-body">
                             <h4 class="card-title fw-light">Proyecto 4</h4>
