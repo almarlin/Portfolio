@@ -79,33 +79,35 @@
             </div>
         </section>
         <section class="container mt-5" id="sobreMi">
-            <div class="wow animate__animated animate__shakeX xl-circle bg-greenPrimary m-3"></div>
+            <div class="row align-items-center justify-content-center">
+                <div class="wow animate__animated animate__shakeX xl-circle bg-greenPrimary m-3"></div>
+            </div>
             <div class="row align-items-center justify-content-center">
                 <div class="wow animate__animated animate__pulse sm-circle bg-tan"></div>
                 <div class="wow animate__animated animate__pulse sm-circle bg-red"></div>
+            </div>
+            <div class="row align-items-center justify-content-center">
+                <div class="wow animate__animated animate__pulse sm-circle bg-tan  "></div>
+                <div class="wow animate__animated animate__pulse sm-circle bg-red "></div>
                 <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary"></div>
 
-                <div class=" justify-items-end">
-                    <div class="wow animate__animated animate__pulse sm-circle bg-tan  "></div>
-                    <div class="wow animate__animated animate__pulse sm-circle bg-red "></div>
-                    <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary  "></div>
-                </div>
+
             </div>
 
             <div class="row align-items-center justify-content-center">
-                <div class="align-items-xl-center align-items-md-center align-items-sm-center">
-                    <div class="wow animate__animated animate__pulse sm-circle bg-red  "></div>
-                </div>
+                <div class="wow animate__animated animate__pulse sm-circle bg-red  "></div>
+                <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary  "></div>
 
-                <div class="  align-items-xl-end align-items-md-end align-items-sm-end justify-items-xl-end justify-items-md-end justify-items-sm-end">
-                    <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary  "></div>
+
+            </div>
+            <div class="row align-items-center justify-content-center">
+                <div class="wow animate__animated animate__shakeX xl-circle bg-greenPrimary  m-3">
                 </div>
-                <div class="wow animate__animated animate__shakeX xl-circle bg-greenPrimary  m-3"></div>
             </div>
 
         </section>
         <section class="container mt-5" id="proyectos">
-            <div class="wow animate__animated animate__fadeInUp xl-circle bg-greenPrimary  align-items-center justify-content-center mb-5">
+            <div class="wow animate__animated animate__fadeInUp xl-circle bg-greenPrimary d-flex align-items-center justify-content-center mb-5">
                 <p class="text-center text-light fs-1 fw-light">Proyectos</p>
             </div>
             <div class="row justify-content-center align-items-center g-2">
@@ -160,6 +162,34 @@
 
             </div>
 
+        </section>
+
+        <section class="container mt-5" id="contacto">
+            <div class="row justify-content-center align-items-center g-2">
+                <div class="col-12 col-md-6">
+                    <div class="wow animate__animated animate__fadeInUp xl-circle bg-greenPrimary d-flex align-items-center justify-content-center mb-5">
+                        <p class="text-center text-light fs-1 fw-light">Contacta conmigo</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 bg-greenPrimary p-4 rounded-4 ">
+                    <form action="" method="post">
+                        <div class="mb-3">
+                            <label for="" class="form-label text-light fw-light fs-5">Email</label>
+                            <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="abc@mail.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label text-light fw-light fs-5">Deja tu mensaje</label>
+                            <textarea class="form-control" name="" id="" rows="3" required></textarea>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="d-flex btn bg-tan text-light fw-light fs-5">Submit</button>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            </div>
         </section>
     </main>
     <footer>
