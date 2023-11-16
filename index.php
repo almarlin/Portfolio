@@ -215,14 +215,22 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-12 col-md-12 col-xl-3">
-                    <div class="sm-circle bg-tan d-flex align-items-center justify-content-center p-3">
-                        <a href="https://github.com/almarlin"><img src="resources/github-svgrepo-com.svg" class="img-fluid rounded-top" alt=""></a>
+                <div class="col-12 col-md-12 col-xl-1 row justify-content-center align-items-center p-2 gap-2">
+                    <div class="col-6">
+                        <div class="sm-circle bg-tan p-3">
+                            <a href="https://github.com/almarlin"><img src="resources/github-svgrepo-com.svg" class="img-fluid rounded-top" alt=""></a>
+                        </div>
                     </div>
-                    <div class="sm-circle bg-tan mt-5 d-flex align-items-center justify-content-center p-3">
-                        <a href="https://shorturl.at/JV578"><img src="resources/linkedin-svgrepo-com.svg" class="img-fluid rounded-top" alt=""></a>
+                    <div class="col-6">
+                        <div class="sm-circle bg-tan p-3 mt-5">
+                            <a href="https://shorturl.at/JV578"><img src="resources/linkedin-svgrepo-com.svg" class="img-fluid rounded-top" alt=""></a>
+                        </div>
                     </div>
+
                 </div>
+
+
+            </div>
 
             </div>
 
