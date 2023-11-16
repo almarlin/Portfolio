@@ -56,19 +56,19 @@
             <div class="row justify-content-center align-items-center">
 
                 <div class="col-6 col-md-5 col-xl-3 mb-2">
-                    <img src="resources/angronWeb.png" class="img-fluid rounded-2 shadow-lg" alt="Álvaro">
+                    <img src="resources/angronWeb.png" class="img-fluid rounded-4 shadow-lg" alt="Álvaro">
                 </div>
                 <div class="container-fluid col-12 col-md-7 col-xl-9">
                     <div class="row justify-content-center align-items-center gap-2">
                         <div class="col-11 col-md-6 bg-greenPrimary rounded-5 p-3" id="nombre">
                             <h1 class="display-6 text-light nombre text-center">Álvaro Martínez Lineros</h1>
                         </div>
-                        <div class="col-1 col-md-1 col-xl-1  bg-greenPrimary d-flex align-items-center justify-content-center" id="github">
-                            <a href="">Github</a>
+                        <div class="col-1 col-md-1 col-xl-1 sm-circle bg-tan d-flex align-items-center justify-content-center" id="github">
+                            <a href="https://github.com/almarlin"><img src="resources/github-svgrepo-com.svg" class="img-fluid rounded-top" alt=""></a>
                         </div>
                         <div class="col-12 col-md-12 col-xl-12 mt-5 p-5">
                             <p class=" fw-light fs-4 text-center p-5 rounded-3 shadow bg-body">
-                                ¡Hola! Me llamo Álvaro Martínez Lineros y soy desarrollador web. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, cumque? Quisquam inventore sapiente aliquid deserunt aperiam, error vel facilis quae, minima molestias ut totam optio excepturi architecto reiciendis quos distinctio!
+                                ¡Hola! Soy Álvaro, un desarrollador apasionado y creativo. Transformo ideas en experiencias digitales. Explora mi trabajo y descubre cómo fusiono estética y funcionalidad.
                             </p>
                         </div>
 
@@ -83,31 +83,45 @@
                 <div class="wow animate__animated animate__shakeX xl-circle bg-greenPrimary m-3"></div>
             </div>
             <div class="row align-items-center justify-content-center">
-                <div class="wow animate__animated animate__pulse sm-circle bg-tan"></div>
-                <div class="wow animate__animated animate__pulse sm-circle bg-red"></div>
+                <div class="wow animate__animated animate__pulse sm-circle bg-tan d-flex align-items-center justify-content-center">
+                    <img src="resources/html-5-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
+                </div>
+                <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex align-items-center justify-content-center">
+                    <img src="resources/css-3-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
+                </div>
             </div>
             <div class="row align-items-center justify-content-center">
-                <div class="wow animate__animated animate__pulse sm-circle bg-tan  "></div>
-                <div class="wow animate__animated animate__pulse sm-circle bg-red "></div>
-                <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary"></div>
+                <div class="wow animate__animated animate__pulse sm-circle bg-tan d-flex align-items-center justify-content-center ">
+                    <img src="resources/mysql-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
+                </div>
+                <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex align-items-center justify-content-center">
+                    <img src="resources/js-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
+                </div>
+                <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary d-flex align-items-center justify-content-center">
+                    <img src="resources/cakephp-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
+                </div>
 
 
             </div>
 
             <div class="row align-items-center justify-content-center">
-                <div class="wow animate__animated animate__pulse sm-circle bg-red  "></div>
-                <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary  "></div>
+                <div class="wow animate__animated animate__pulse sm-circle bg-red d-flex align-items-center justify-content-center">
+                    <img src="resources/git-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
+                </div>
+                <div class="wow animate__animated animate__pulse sm-circle bg-greenPrimary d-flex align-items-center justify-content-center">
+                    <img src="resources/php-svgrepo-com.svg" class="img-fluid rounded-top" alt="">
+                </div>
 
 
             </div>
             <div class="row align-items-center justify-content-center">
-                <div class="wow animate__animated animate__shakeX xl-circle bg-greenPrimary  m-3">
+                <div class="xl-circle bg-greenPrimary  m-3">
                 </div>
             </div>
 
         </section>
         <section class="container mt-5" id="proyectos">
-            <div class="wow animate__animated animate__fadeInUp xl-circle bg-greenPrimary d-flex align-items-center justify-content-center mb-5">
+            <div class="wow animate__animated animate__fadeInUp xl-circle circleUp bg-greenPrimary d-flex align-items-center justify-content-center mb-5">
                 <p class="text-center text-light fs-1 fw-light">Proyectos</p>
             </div>
             <div class="row justify-content-center align-items-center g-2">
@@ -165,14 +179,20 @@
         </section>
 
         <section class="container mt-5" id="contacto">
-            <div class="row justify-content-center align-items-center g-2">
-                <div class="col-12 col-md-6">
-                    <div class="wow animate__animated animate__fadeInUp xl-circle bg-greenPrimary d-flex align-items-center justify-content-center mb-5">
+            <div class="row justify-content-center align-items-center p-2 gap-2">
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="wow animate__animated animate__fadeInUp xl-circle circleUp bg-greenPrimary d-flex align-items-center justify-content-center mb-5">
                         <p class="text-center text-light fs-1 fw-light">Contacta conmigo</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 bg-greenPrimary p-4 rounded-4 ">
+
+                <div class="col-12 col-md-6 col-xl-4 bg-greenPrimary p-4 rounded-4 ">
                     <form action="" method="post">
+                        <div class="mb-3">
+                            <label for="" class="form-label text-light fw-light fs-5">Nombre</label>
+                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+
+                        </div>
                         <div class="mb-3">
                             <label for="" class="form-label text-light fw-light fs-5">Email</label>
                             <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="abc@mail.com" required>
@@ -182,11 +202,20 @@
                             <textarea class="form-control" name="" id="" rows="3" required></textarea>
                         </div>
                         <div class="d-flex justify-content-end">
-                            <button type="submit" class="d-flex btn bg-tan text-light fw-light fs-5">Submit</button>
+                            <button type="submit" class="d-flex btn bg-tan text-light fw-light fs-5">Enviar</button>
 
                         </div>
                     </form>
                 </div>
+                <div class="col-12 col-md-12 col-xl-3">
+                    <div class="sm-circle bg-tan d-flex align-items-center justify-content-center p-3">
+                        <a href="https://github.com/almarlin"><img src="resources/github-svgrepo-com.svg" class="img-fluid rounded-top" alt=""></a>
+                    </div>
+                    <div class="sm-circle bg-tan mt-5 d-flex align-items-center justify-content-center p-3">
+                        <a href="https://shorturl.at/JV578"><img src="resources/linkedin-svgrepo-com.svg" class="img-fluid rounded-top" alt=""></a>
+                    </div>
+                </div>
+
             </div>
 
             </div>
