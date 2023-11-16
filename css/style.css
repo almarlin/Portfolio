@@ -16,7 +16,7 @@ body {
     background-color: tan;
 }
 
-.bg-red{
+.bg-red {
     background-color: rgb(206, 0, 0);
 }
 
@@ -47,24 +47,24 @@ body {
     border-radius: 50%;
     width: 16rem;
     height: 16rem;
-    animation-duration: 1s; 
+    animation-duration: 1s;
     animation-delay: 2.5s;
 }
 
-.circleUp{
+.circleUp {
     animation-delay: 0.5s;
 }
 
-.card{
-    animation-duration: 1s; 
-    animation-delay: 0.5s; 
+.card {
+    animation-duration: 1s;
+    animation-delay: 0.5s;
 }
 
 .sm-circle {
     border-radius: 50%;
     width: 6rem;
     height: 6rem;
-    animation-delay: 0.5s;
+    animation-delay: 2.5s;
     animation-duration: 1s;
     transition: height 1s, width 1s;
 }
@@ -74,6 +74,29 @@ body {
     height: 9rem;
     width: 9rem;
 
+}
+
+#project1 {
+    animation-delay: 1s;
+}
+
+#project2 {
+    animation-delay: 1.3s;
+}
+
+#project3 {
+    animation-delay: 1.6s;
+}
+
+#project4 {
+    animation-delay: 1.9s;
+}
+#send{
+    transition: background-color;
+    transition-duration: 0.3s
+}
+#send:hover {
+    background-color: red;
 }
 
 @keyframes expand {
@@ -99,6 +122,3 @@ body {
         transform: translateY(0px);
     }
 }
-
-
-

@@ -228,7 +228,7 @@
                             <textarea class="form-control" name="" id="" rows="3" required></textarea>
                         </div>
                         <div class="d-flex justify-content-end">
-                            <button type="submit" class="d-flex btn bg-tan text-light fw-light fs-5">Enviar</button>
+                            <button type="submit" class="d-flex btn bg-tan text-light fw-light fs-5" id="send">Enviar</button>
 
                         </div>
                     </form>
