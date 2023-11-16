@@ -213,19 +213,19 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-xl-4 bg-greenPrimary p-4 rounded-4 ">
-                    <form action="" method="post">
+                    <form action="index.php" method="post">
                         <div class="mb-3">
                             <label for="" class="form-label text-light fw-light fs-5">Nombre</label>
-                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                            <input type="text" class="form-control" name="name" id="name" aria-describedby="helpId" placeholder="" required>
 
                         </div>
                         <div class="mb-3">
                             <label for="" class="form-label text-light fw-light fs-5">Email</label>
-                            <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="abc@mail.com" required>
+                            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId" placeholder="abc@mail.com" required>
                         </div>
                         <div class="mb-3">
                             <label for="" class="form-label text-light fw-light fs-5">Deja tu mensaje</label>
-                            <textarea class="form-control" name="" id="" rows="3" required></textarea>
+                            <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
                         </div>
                         <div class="d-flex justify-content-end">
                             <button type="submit" class="d-flex btn bg-tan text-light fw-light fs-5" id="send">Enviar</button>
