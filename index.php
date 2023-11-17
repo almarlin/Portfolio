@@ -28,24 +28,26 @@
         <!-- place navbar here -->
         <nav class="navbar navbar-expand-sm p-4 mb-5 bg-greenPrimary ">
             <div class="container">
-                <a class="navbar-brand text-light" href="#">LOGO</a>
-                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item">
-                            <a class="nav-link active text-light fw-light fs-5" aria-current="page" href="#sobreMi">Sobre mi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-light fw-light fs-5" href="#proyectos">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-light fw-light fs-5" href="#contacto">Contacto</a>
-                        </li>
-                    </ul>
+                <div class="row justify-content-center align-items-center">
+                    <a class="navbar-brand text-light col-12 col-md-3" href="#"><img src="resources/logo.svg" class="img-fluid rounded-top" alt="logo"></a>
+                    <button class="navbar-toggler d-lg-none col-12 col-md-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end col-12 col-md-3" id="collapsibleNavId">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link active text-light fw-light fs-5" aria-current="page" href="#sobreMi">Sobre mi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-light fw-light fs-5" href="#proyectos">Proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-light fw-light fs-5" href="#contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+
             </div>
         </nav>
 
