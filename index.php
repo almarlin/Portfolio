@@ -58,7 +58,7 @@
             <div class="row justify-content-center align-items-center">
 
                 <div class="col-6 col-md-5 col-xl-3 mb-2">
-                    <img src="resources/angronWeb.png" class="img-fluid rounded-4 shadow-lg" alt="Álvaro">
+                    <img src="resources/AlvaroMartinez.jpeg" class="img-fluid rounded-4 shadow-lg" alt="Álvaro">
                 </div>
                 <div class="container-fluid col-12 col-md-7 col-xl-9">
                     <div class="row justify-content-center align-items-center gap-2">
